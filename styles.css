@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Climate+Crisis&display=swap');
+
+body{
+background-color: aliceblue;
+}
+#task{
+    background-color: aquamarine;
+    display:flex;
+    flex-direction: column;
+    margin-left:30%;
+    margin-top: 5%;
+    height:500px;
+    width:500px;
+    border-radius: 5%;
+}
+h1,h2{
+    margin:10px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Climate Crisis', sans-serif;
+
+}
+p{
+    padding-left:10px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Climate Crisis', sans-serif;
+
+}
+img{
+    border-radius:5%;
+    height:200px;
+    width:200px;
+    margin-left:150px;
+    margin-top:30px;
+}
+#start,#next,#end1,#three{
+    border-radius:5%;
+    color:bisque;
+     width:200px;
+     margin-top:50px;
+     margin-left:150px;
+    background-color: blue;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Climate Crisis', sans-serif;
+}
+.hide{
+    display: none;
+}
+input{
+    height:100px;
+    width:400px;
+    border-radius:5%;
+    margin-left:20px;
+    margin-top:30px;
+
+}
